@@ -1,0 +1,23 @@
+# Ignore compiled code and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Ignore sensitive or environment-specific configuration files
+config.ini
+secrets.yaml
+.env
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+logs/
+*.log
+temp/
+
+# Ignore dependencies managed by package managers
+venv/
+node_modules/
